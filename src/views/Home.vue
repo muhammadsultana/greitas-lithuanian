@@ -7,17 +7,18 @@
           <div class="columns">
             <div class="column has-text-left">
               <p class="is-size-1">Improve website performance!</p>
-              <p class="is-size-6">Increasing your site’s loading speed will improve your visitor
-                experience, reduce your advertising costs, and increase sales.</p>
+              <p class="is-size-6 subtitle-hero">Increasing your site’s loading speed will
+                improve your visitor experience, reduce your advertising costs, and increase
+                sales.</p>
               <div class="field is-grouped">
                   <p class="control">
                     <button class="button is-primary">
-                      Save changes
+                      Get started
                     </button>
                   </p>
                   <p class="control">
                     <button class="button">
-                      Cancel
+                      Learn more
                     </button>
                   </p>
               </div>
@@ -61,9 +62,12 @@
       <div class="container">
         <h1 class="title has-text-center">Išsirinkite sau tinkamą planą</h1>
         <div class="columns is-desktop">
-          <Card />
-          <Card />
-          <Card />
+          <Card title="Basic" subtitle="For small businesses and those who want
+to try the service"/>
+          <Card title="Optimal" subtitle="For those who care about improving
+the results of the site"/>
+          <Card title="Premium" subtitle="For current or future
+market leaders"/>
         </div>
       </div>
     </section>

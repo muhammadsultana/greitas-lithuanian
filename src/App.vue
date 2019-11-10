@@ -18,6 +18,10 @@ export default {
 </script>
 
 <style lang="scss">
+@import "~bulma/sass/utilities/_all";
+
+$primary: #ef6767;
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

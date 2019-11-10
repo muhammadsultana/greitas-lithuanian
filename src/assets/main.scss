@@ -1,7 +1,8 @@
-@charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+$primary: #F15B2F;
 
-$footer-background-color: #F15B2F;
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import "~bulma/bulma";
+
 
 .button {
   border-radius: 40px;
@@ -23,6 +24,11 @@ $footer-background-color: #F15B2F;
   box-shadow: 0 4px 8px 0 rgba(32, 30, 78, 0.2);
   border-radius: 10px;
   padding: 2rem;
+}
+
+.subtitle-hero {
+  line-height: 2;
+  margin-bottom: 2rem;
 }
 
 .bg-img {
