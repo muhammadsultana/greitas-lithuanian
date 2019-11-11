@@ -1,8 +1,9 @@
 $primary: #F15B2F;
+$info: #A73882;
+$success: #2DBA79;
 
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import "~bulma/bulma";
-
 
 .button {
   border-radius: 40px;
@@ -41,6 +42,12 @@ $primary: #F15B2F;
 .card {
   border-radius: 20px;
   margin: 1rem 2rem;
+}
+
+.card-equal-height {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
 }
 
 .is-primary {

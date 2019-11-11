@@ -1,6 +1,6 @@
 <template>
   <div id="card">
-    <div class="card">
+    <div class="card card-equal-height">
       <div class="card-content">
         <p class="title">
           {{ title }}
@@ -10,26 +10,14 @@
         </p>
         <hr>
         <div class="card-content has-text-left">
-          <ul>
-            <li>Loading resources audit
-              <span class="has-text-grey-light">(Server-side, SSL,
-                CDN, Cache, JS, Photos, Fonts ..)</span>
-            </li>
-            <li>Identification of problem areas</li>
-            <li>Solution presentation</li>
-            <li>Optimization of basic resources</li>
-          </ul>
-          <hr>
-          <p>Website Security Recommendations</p>
+          <div class="content">
+            <slot></slot>
+          </div>
         </div>
         <hr>
-        <p class="is-size-2">187€</p>
+        <p class="is-size-2"><slot name="price"></slot></p>
         <p class="has-text-grey-light">(VAT included)</p>
-        <div class="card-content">
-          <button class="button is-primary">
-            Order
-          </button>
-        </div>
+          <slot name="button"></slot>
       </div>
     </div>
   </div>
