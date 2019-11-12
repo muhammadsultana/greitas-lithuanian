@@ -12,16 +12,16 @@
 
           <template slot="end">
               <b-navbar-item v-scroll-to="'#case'">
-                  Case Study
+                  Atvejo analizė
               </b-navbar-item>
               <b-navbar-item v-scroll-to="'#pricing'">
-                  Pricing
+                  Kainos
               </b-navbar-item>
               <b-navbar-item v-scroll-to="'#information'">
-                  Information
+                  Informacija
               </b-navbar-item>
               <b-navbar-item v-scroll-to="'#contact'">
-                  Contact
+                  Kontaktai
               </b-navbar-item>
           </template>
       </b-navbar>
