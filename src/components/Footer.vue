@@ -3,7 +3,8 @@
     <footer class="footer">
       <div class="content has-text-left column is-half is-offset-5">
         <p> Telefono numeris:  +370 655 40 949</p>
-        <p>Elektroninis paštas:  info@mvo.lt</p>
+        <p>Elektroninis paštas:  <a href="mailto:info@mvo.lt" class="has-text-link">
+          info@mvo.lt</a></p>
         <p>
           <span>
             MB Matomumas, vystymas ir optimizavimas<br>

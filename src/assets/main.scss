@@ -1,6 +1,7 @@
 $primary: #F15B2F;
 $info: #A73882;
 $success: #2DBA79;
+$danger: #302460;
 
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 @import "~bulma/bulma";
@@ -28,8 +29,8 @@ $success: #2DBA79;
 }
 
 .subtitle-hero {
-  line-height: 2.5;
-  margin-bottom: 3rem;
+  line-height: 2;
+  margin-bottom: 2.5rem;
 }
 
 .bg-img {
@@ -38,10 +39,25 @@ $success: #2DBA79;
   background-size: cover;
 }
 
+.material-design-icon.icon-2x {
+  height: 2em;
+  width: 2em;
+  color: #F15B2F;
+}
+ 
+.material-design-icon.icon-2x > .material-design-icon__svg {
+  height: 2em;
+  width: 2em;
+  color: #F15B2F;
+}
+
 .card {
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(31, 30, 48, 0.3);
+  display: flex;
+  flex-direction: column;
   height: 100%;
+  word-wrap: break-word;
 }
 
 img {
